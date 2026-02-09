@@ -1,0 +1,24 @@
+/* COLOR DE FONDO de la columna izquierda */
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* opacidad de la barra de progreso */
+.bg-primary{
+    background-color: #0a071f !important;
+}
+
+.progress{
+    background-color: #efefef;
+}
+/* cambio texto color de experiencia */
+.text-primary{
+    color: #3498bd !important;
+}
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0.0.0.0, 0.1);
+}
